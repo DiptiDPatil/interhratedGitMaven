@@ -1,9 +1,13 @@
 package testJava;
 
+import org.testng.annotations.Test;
+
+import mainJava.BaseClass123;
+
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class LoginTestClass123 extends BaseTest123{
+public class LoginTestClass123 extends BaseClass123{
 	@Test(priority =1)
 	public void verifuRLTest() {
 		
